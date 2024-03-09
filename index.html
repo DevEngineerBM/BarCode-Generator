@@ -3,6 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jsbarcode/3.11.6/JsBarcode.all.min.js"></script>
     <link rel="stylesheet" href="style.css" />
     <title>barcode</title>
   </head>
@@ -13,7 +14,7 @@
         <input type="text" id="input" />
         <button id="button">generate barcode</button>
       </div>
-      <div class="codebar"></div>
+      <svg id="barcode"></svg>
     </div>
     <script src="script.js"></script>
   </body>

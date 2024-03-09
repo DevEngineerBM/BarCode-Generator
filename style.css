@@ -58,3 +58,8 @@ button {
     border-radius: 5px;
     cursor: pointer;
 }
+
+#barcode {
+    display: block;
+    margin: 0 auto;
+}
